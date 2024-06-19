@@ -2,6 +2,12 @@
 
 Consumo a API do de um wordpress que tenho e listo as postagens de blog que criei. Ainda está em desenvolvimento =D
 
+front: https://react-wordpress-headless.vercel.app/
+
+## OBS:
+
+Se vc tentar consumir api do meu backend wordpress, vai dar ruim pq uso plugin de cache naquele dominio, vai se deparar com problema de cors, mas voce pode habilitar depois =D
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
