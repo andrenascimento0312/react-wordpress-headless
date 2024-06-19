@@ -1,4 +1,4 @@
-# Esse projeto é utilizando um CMS(Worpdress) headless
+# Esse projeto é utilizando um CMS(Wordpress) headless
 
 Consumo a API do de um wordpress que tenho e listo as postagens de blog que criei. Ainda está em desenvolvimento =D
 
