@@ -12,33 +12,36 @@ import Contact from './pages/Contact';
 
 const App = () => {
 	return (
-		
-		<BrowserRouter>
 
-			<div className="max-w-7xl mx-auto px-3">
+		<>
+			<BrowserRouter>
 
-				<Header logo={logo} />
+				<div className="max-w-7xl mx-auto px-3">
 
-				<Routes>
-					
-					<Route path="/about" element={<About />} />
+					<Header logo={logo} />
 
-					<Route path="/contato" element={<Contact />} />
+					<Routes>
 
-					<Route path="/blog/:slug" element={<SinglePost />} />
+						<Route path="/about" element={<About />} />
 
-					<Route exact path="/" element={<Home />} />
+						<Route path="/contato" element={<Contact />} />
 
-					<Route path="*" element={<NaoEncontrado />} />
+						<Route path="/blog/:slug" element={<SinglePost />} />
 
-				</Routes>
+						<Route exact path="/" element={<Home />} />
+
+						<Route path="*" element={<NaoEncontrado />} />
+
+					</Routes>
 
 
-				<Footer copy="© 2024" />
+					<Footer copy="© 2024" />
 
-			</div>
+				</div>
 
-		</BrowserRouter>
+			</BrowserRouter>
+		</>
+
 	);
 }
 
