@@ -6,7 +6,7 @@ import PrimaryRecentPostCard from "../PrimaryRecentPostCard/PrimaryRecentPostCar
 export default props => {
 
 	const postsToDisplay = props.data.slice(4);
-	
+		
 	return (
 		<>
 

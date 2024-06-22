@@ -8,7 +8,7 @@ export default props => {
 
 			<div className={`w-full flex flex-wrap lg:flex-nowrap gap-8 justify-between items-center my-16 ${props.className}`}>
 				<div className="lg:flex-1 w-full lg:w-auto ">
-					<Link to={`/blog/${props.slug}`}>
+					<Link to={`/post/${props.slug}`}>
 						<img src={props.imageUrl} className="w-full lg:max-h-[246px] object-cover" alt="" srcset="" />
 					</Link>
 				</div>
@@ -16,7 +16,7 @@ export default props => {
 					<div className="text-[#6941C6] font-semibold mb-3">
 						{props.date}
 					</div>
-					<Link to={`/blog/${props.slug}`}>
+					<Link to={`/post/${props.slug}`}>
 						<div className="flex justify-between mb-3">
 							<h3 className="text-white text-2xl font-semibold">
 								{props.title}

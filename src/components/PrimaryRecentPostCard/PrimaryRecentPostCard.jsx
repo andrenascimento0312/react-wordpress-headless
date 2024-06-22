@@ -18,13 +18,13 @@ export default props => {
 		<>
 			<div className={`${props.className}`}>
 				<div className="main-card ">
-					<Link to={`/blog/${props.slug}`}>
+					<Link to={`/post/${props.slug}`}>
 						<img src={props.imageUrl} className="object-cover mt-8 mb-2 w-full md:min-h-[228px] md:max-h-[228px]" alt="" srcset="" />
 					</Link>
 					<div className="text-[#6941C6] font-semibold mb-3">
 						{props.date}
 					</div>
-					<Link to={`/blog/${props.slug}`}>
+					<Link to={`/post/${props.slug}`}>
 						<div className="flex justify-between mb-3">
 							<h3 className="text-white text-2xl font-semibold">
 								{props.title}

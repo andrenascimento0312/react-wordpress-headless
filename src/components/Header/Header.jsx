@@ -33,8 +33,8 @@ export default props => {
 							<div className="item ">Blog</div>
 						</Link>
 
-						<Link to="/about">
-							<div className="item">About</div>
+						<Link to="/sobre">
+							<div className="item">Sobre</div>
 						</Link>
 
 						<Link to="/contato">
@@ -46,16 +46,16 @@ export default props => {
 					{menuMobile && (
 						<div className="flex lg:hidden gap-3 mt-4 p-4 bg-white text-primary blog-items flex-col">
 
-							<Link to="/">
+							<Link to="/" onClick={() => setMenuMobile(false)}>
 								<div className="item ">Blog</div>
 							</Link>
 
-							<Link to="/about">
-								<div className="item">About</div>
+							<Link to="/sobre" onClick={() => setMenuMobile(false)}>
+								<div className="item">Sobre</div>
 							</Link>
 
-							<Link to="/newsletter">
-								<div className="item">Newsletter</div>
+							<Link to="/contato" onClick={() => setMenuMobile(false)}>
+								<div className="item">Contato</div>
 							</Link>
 
 						</div>

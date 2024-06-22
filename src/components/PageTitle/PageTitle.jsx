@@ -5,7 +5,7 @@ export default props => {
 		<>
 
 			<div className="py-8 text-white border-y border-white uppercase">
-				<h1 className="text-6xl text-center">{props.title}</h1>
+				<h1 className="lg:text-6xl text-center">{props.title}</h1>
 			</div>
 
 		</>

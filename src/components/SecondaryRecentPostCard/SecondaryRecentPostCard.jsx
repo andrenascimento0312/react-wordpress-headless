@@ -13,12 +13,12 @@ export default props => {
 	return (
 		<>
 			<div className="flex flex-wrap md:flex-nowrap gap-6 lg:max-h-[200px]">
-				<Link to={`/blog/${props.slug}`}>
+				<Link to={`/post/${props.slug}`}>
 					<img className='object-cover w-full md:min-w-[320px] md:max-w-[320px] md:h-[200px]' src={props.imageUrl} alt={props.title} />
 				</Link>
 				<div className='flex flex-wrap flex-col gap-2'>
 					<h3 className='text-[#6941C6] font-semibold'>{props.date}</h3>
-					<Link to={`/blog/${props.slug}`}>
+					<Link to={`/post/${props.slug}`}>
 						<h4 className='text-white text-xl font-semibold'>{props.title}</h4>
 					</Link>
 					<p className='text-[#C0C5D0]'>

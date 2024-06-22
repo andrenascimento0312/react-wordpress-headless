@@ -22,11 +22,11 @@ const App = () => {
 
 					<Routes>
 
-						<Route path="/about" element={<About />} />
+						<Route path="/sobre" element={<About />} />
 
 						<Route path="/contato" element={<Contact />} />
 
-						<Route path="/blog/:slug" element={<SinglePost />} />
+						<Route path="/post/:slug" element={<SinglePost />} />
 
 						<Route exact path="/" element={<Home />} />
 
