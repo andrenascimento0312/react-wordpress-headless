@@ -2,7 +2,7 @@
 
 Consumo a API do de um wordpress que tenho e listo as postagens de blog que criei. Ainda está em desenvolvimento =D
 
-front: https://react-wordpress-headless.vercel.app/
+Tenho um wordpress no dominio andrednascimento.com.br e de lá consumo um endpoint que libeirei da API Rest do WordPress
 
 ## OBS:
 
